@@ -15,12 +15,12 @@ var marion=new MiembroSquad("Marion", "Castillo",29,"Caminar");
 var caro=new MiembroSquad("Carolina", "Tapia",27,"Hacer trekking");
 var bel=new MiembroSquad("Belén", "Recabal",18,"Andar en bici");
 
-
-// Muestra el primer nombre de persona1
-alert ('persona1 es ' + persona1.primerNombre); // muestra "persona1 es Alicia"
-alert ('persona2 es ' + persona2.primerNombre); // muestra "persona2 es Sebastian"
-
-/*function recorrer(){
+/*function mostrar(){ 
+	var espacioInfo= document.getElementById("espacio");
+	var información = ("Nombre: "+ this.nombre + <br> +" Apellido " + this.apellido + <br> + " Edad: " + this.edad + <br> +" Hobbies: " + this.hobbies);
+	espacioInfo.innerHTML =información;
+}
+function recorrer(){
 	var compañeraCami = document.getElementById("cami").value;
 	var  compañeraAnto= document.getElementById("anto").value;
 	var  compañeraFran= document.getElementById("fran").value;
@@ -29,10 +29,6 @@ alert ('persona2 es ' + persona2.primerNombre); // muestra "persona2 es Sebastia
 	var  compañeraVal= document.getElementById("val").value;
 	var  compañeraMarion= document.getElementById("marion").value;
     var  compañeraCaro= document.getElementById("caro").value;
-	var  compañeraBel= document.getElementById("bel").value;*/
+    var  compañeraBel= document.getElementById("bel").value;*/
 
 	//function recorrerSquad(){ 
-
-		var espacioPelea= document.getElementById("espacio");
-		var mensaje = (peleador1.nombre + " atacó a " + peleador2.nombre + " y solo le queda " + peleador2.vida + " puntos de vida");
-		espacioPelea.innerHTML =mensaje;
